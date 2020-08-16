@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Hi+Melody&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <script src="clock.js"></script>
+    <script src="name.js"></script>
+    <script src="toDo.js"></script>
+    <script src="weather.js"></script>
+    <script src="image.js"></script>
+
+    <div class="js-image"></div>
+
+    <div class="wrapper">
+      <div class="box" id="box1" style="border: 1px solid;">
+        <div class="js-clock clock"></div>
+        <h4 class="js-locals locals"></h4>
+        <form class="js-Name Name">
+          <input type="text" id="myName" placeholder="What's your name?" />
+        </form>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <div class="js-weather weather"></div>
+      </div>
+      <div class="box" id="box2">
+        <h3 style="font-size: 30px;">To Do</h3>
+        <form class="js-toDoForm">
+          <input type="text" id="toDo" placeholder="Write to do" />
+        </form>
+
+        <ul class="js-toDoList toDoList">
+          Pending
+        </ul>
+        <ul class="js-finishList finishList">
+          Finished
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
